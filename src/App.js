@@ -2,7 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
+
+  //  solition : all the code will have to write here ..
+  //  i have wrotten all the code here only ...
+  
+  return  (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

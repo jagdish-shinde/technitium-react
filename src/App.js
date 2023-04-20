@@ -1,23 +1,39 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Greeting from './components/greeting/greeting';
+import Intro from './components/intro-card/intro-card';
+
 function App() {
+
+
+  //  ceate the variable at wahich you want to pass the data / value 
+  //  pass this value to child 
+  //  receive this value at  child .
+  //  and finally read this value 
+
+
+// const name = 'React'
+
+
+// Assigment  -/>  
+
+// ASHISH 
+
+
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Greeting  
+        name = 'jagdish'
+      />
+      <Intro 
+        name = 'Gabbar'
+        age = "230"
+        city = 'Delhi'
+      />
     </div>
   );
 }

@@ -6,6 +6,14 @@
   height: 40vmin;
   pointer-events: none;
 }
+.headingFour{
+  color: blue;
+}
+
+.externalStyleBtn {
+  width : 300px ;
+  background-color: green;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

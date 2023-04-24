@@ -36,6 +36,20 @@ function App() {
   // external
 
 
+  const names = [
+    'jagdish' ,
+    'rajan' ,
+    'shivam' ,
+    'raju' ,
+    'kaju',
+    'jagdish' ,
+    'rajan' ,
+    'shivam' ,
+    'raju' ,
+    'kaju'
+  ]
+
+
 
 
   //  external 
@@ -82,6 +96,18 @@ function App() {
         //  buttonStyle = {ButtonStyle}
         externalClassName = 'externalStyleBtn'
       />
+
+      {/* <h5>JAGISH</h5>
+      <h5>Arin</h5>
+      <h5>rajan</h5>
+      <h5>sachin</h5>
+      <h5>shivam</h5> */}
+
+      {
+        names.map(name => <h5>{name}</h5>)
+      }
+
+      {/*  forEach  */}
     </div>
   );
 }

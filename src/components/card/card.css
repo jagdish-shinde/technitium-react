@@ -1,0 +1,9 @@
+.wrapper{
+    border : 1px solid ;
+    width: 340px;
+    height: 340px;
+}
+
+.wrapper p {
+    font-size: 12px;
+}

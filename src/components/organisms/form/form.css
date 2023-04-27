@@ -1,0 +1,21 @@
+.form{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+.inputField{
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.submitBtn {
+    background-color: red;
+    border: none;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}

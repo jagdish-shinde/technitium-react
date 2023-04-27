@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import List from './components/molecules/list/list';
+import { number , names } from './components/const';
+import RegistrationForm from './components/organisms/form/form';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <List array = {number}/>
+      <List array = {names}/> */}
+      <RegistrationForm/>
     </div>
   );
 }

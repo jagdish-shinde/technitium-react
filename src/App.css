@@ -1,7 +1,13 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  /* display: flex; */
 }
-
+.cardWrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -12,20 +12,26 @@ function App() {
 
   const [userDetail ,setUserDetail] = useState([])
 
-
-
-
-
-
   async function getUsers () {
-    // fetch('https://reqres.in/api/users/')
-    // .then((response)=> response.json())
-    // .then((data)=>console.log(data.data))
+    const url = 'https://cdn-api.co-vin.in/api/v2/auth/public/generateOTP'
 
-    const response = await fetch('https://reqres.in/api/users/')
-    const userData =  await response.json()
-    console.log(userData.data)
-    setUserDetail(userData.data)
+    const option = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({mobile : 8010821516}),
+    }
+
+    fetch(url, option)
+    .then((response) => response.json())
+    .then((data) => console.log({data}))
+    .catch((error) => console.log(error))
+
+    // do the same thing using async await 
+
+
+
 
 
   

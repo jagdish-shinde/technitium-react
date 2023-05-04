@@ -60,9 +60,19 @@ function App() {
     //   ho to create the request (get , post ...)
 
 
-    
 
- 
+    //  fetch(url) -/> get 
+    // fetch(url , option)
+
+    // option = {
+    //   hersd : 
+    //   methie : 
+    //   body : {}
+    // }
+    //  http method .
+    // what is https .
+    // 
+
   }
 
 

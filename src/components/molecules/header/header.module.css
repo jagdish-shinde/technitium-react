@@ -1,0 +1,41 @@
+/* this css wil get applied for screen size leas that 1024 px */
+.child {
+    /* font-size: 100px; */
+    /* font-weight: 700; */
+    /* color: green; */
+}
+.navOption{
+    display: none;
+}
+.menu{
+    font-size: 5rem;
+    color: skyblue;
+}
+
+
+
+@media screen and (min-width : 1024px) {
+    /* descktop */
+    /* css will get qpplied when screen size will be more that eueal to 1024px */
+    .child {
+        /* font-size: 30px; */
+        /* font-weight: 700; */
+        /* color: blue; */
+    }
+    .header {
+        
+    }
+    .navOption {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2rem;
+        color: blue;
+    }
+    .menu{
+        display: none;
+    }
+  
+
+    
+}

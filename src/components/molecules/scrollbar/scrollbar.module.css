@@ -1,0 +1,28 @@
+.wrapper{
+    border: 1px solid red;
+    width: 70% ;
+    display: flex;
+    margin: auto;
+    padding: 2rem ;
+    max-width: 70%;
+    /* gap: 2rem; */
+    /* overflow: hidden; */
+    overflow: scroll;
+
+    
+    /* vh vw */
+}
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+.card{
+    background-color: red;
+    min-height: 200px;
+    min-width: 200px;
+    border-radius: 12px;
+    margin-right: 2rem;
+}

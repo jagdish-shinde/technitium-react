@@ -1,0 +1,11 @@
+.navBar{
+    /* border: 1px solid blue; */
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+
+}

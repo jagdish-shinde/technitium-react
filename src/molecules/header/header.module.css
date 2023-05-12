@@ -1,0 +1,40 @@
+
+.navWrapper{
+    display: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconWrapper{
+    padding-right: 2rem;
+}
+
+@media screen and (min-width:1024px) {
+
+    .header{
+        height: calc(100rem/16) ;
+        /* border: 1px solid red; */
+        /* display: flex;
+        align-items: center; */
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+    }
+    .logo{
+        flex: 1;
+
+    }
+    .navWrapper{
+        flex: 5;
+        display: unset;
+        /* border: 1px solid green; */
+ 
+
+    }
+    .iconWrapper{
+        display: none;
+    }
+
+    
+}

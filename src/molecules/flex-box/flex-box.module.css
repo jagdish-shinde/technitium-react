@@ -1,0 +1,114 @@
+.flexContainer{
+    border: 2px solid red;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    height: 500px;
+    
+    flex-wrap: wrap;
+    gap: 20px;
+
+    /* align item - : y axis */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+
+    /*  justify content : x - axis*/
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+
+
+    /* align-items: center; */
+    /* justify-content: center; */
+
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+
+    /* flex-direction: column-reverse; */
+
+
+
+
+
+    
+
+
+}
+.flexChild{
+    background-color: blue;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    height: 100px;
+    /* min-width: 100px; */
+    width: 100px;
+    /* background-color: red; */
+    /* flex-grow: 1; */
+    /* margin-right: 20px; */
+}
+
+
+.parent{
+    /* background-color: red; */
+    border: 1px solid blue;
+    height: 50vh;
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    /* bottom: 0; */
+    /* right: 0; */
+    /* left: 20px; */
+
+    /*  top , buttom left , right */
+    /* top: 100px; */
+    /* right: 100px; */
+
+
+
+}
+
+.child1 {
+
+    composes : child ;
+    z-index: 2;
+
+}
+
+.child2 {
+
+    composes : child ;
+    background-color: blue;
+    /* z-index: 3 */
+
+
+
+}
+
+
+.flexChild:first-child{
+    /* background-color: red; */
+}
+.flexChild:last-child{
+    /* background-color: rgb(0, 255, 42); */
+}
+.flexChild:nth-child(3){
+    /* background-color: red; */
+}
+
+.flexChild:nth-child(even) {
+    /* background-color: red; */
+}
+
+.flexChild:nth-child(odd) {
+    background-color: rgb(98, 0, 255);
+}

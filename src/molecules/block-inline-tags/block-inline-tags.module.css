@@ -1,0 +1,19 @@
+.heading{
+    border: 1px solid rgb(106, 0, 255);
+    /* display: inline; */
+    /* width: 300px; */
+    /* height: 300px; */
+    /* margin: 50px; */
+    /* padding: 50px; */
+
+}
+.link{
+    border: 1px solid red;
+    /* display: inline ; */
+    /* display : inline-block */
+    /* display: block; */
+    /* width: 300px; */
+    /* height: 300px; */
+    /* margin: 50px; */
+    /* padding: 50px; */
+}

@@ -1,23 +1,37 @@
 import logo from './logo.svg';
 import './App.css';
+import {useNavigate ,Link} from 'react-router-dom'
 
 function App() {
+  const nevigate = useNavigate()
+
+  // const pathByKey = {
+  //   'login' : '/login' ,
+  //   'register' : '/register'
+  // }
+
+  // const handleRedirect = function (key) {
+  //   const pathToRedirect = pathByKey[key]
+  //   nevigate(pathToRedirect)
+  // }
+
+
+
+  function hanldeLogin () {
+    nevigate('/login')
+  }
+  function handleRegister () {
+    nevigate('/register')
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button onClick={hanldeLogin}>login</button> 
+      <button onClick={handleRegister}>Register</button>
+      <button>About us</button>
+      {/* <Link to={'/login'}>go to login</Link> */}
+
     </div>
   );
 }

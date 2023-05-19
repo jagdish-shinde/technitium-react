@@ -15,6 +15,7 @@ export default function Timer () {
 
     useEffect(() => {
         if(timeLeft === 0) {
+            //write the code to stop the timer .
             // alert('time over')
             // submit the quiz 
         }

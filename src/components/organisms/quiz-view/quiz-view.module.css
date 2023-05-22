@@ -1,0 +1,42 @@
+.container{
+    border: 1px solid grey;
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.container p {
+    text-align: start;
+}
+.options{
+    /* border: 1px solid red; */
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column; */
+}
+.options div {
+    width: fit-content;
+    /* mar */
+    margin-bottom: 1rem;
+}
+.btnContainer{
+    /* border: 1px solid red;
+     */
+    display: flex;
+    align-items: center;justify-content: flex-end;
+}
+.btnContainer button {
+    background-color: red;
+    border: 0;
+    outline: none;
+    color: #fff;
+    /* font-size: 1rem; */
+    font-weight: 700;
+    border-radius: 10px;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+
+
+}

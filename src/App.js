@@ -33,7 +33,7 @@ function App() {
   function handleSubmit () {
     // submit ka code write here
     alert('submitto the quiz')
-    // just read the final score value
+    // just read the final score value from localstorage
     setFinalScore(
       //  here to save final score read from local storage
     )

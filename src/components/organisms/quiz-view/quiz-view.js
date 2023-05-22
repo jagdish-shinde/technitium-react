@@ -10,14 +10,11 @@ export default function QuizApp ({questionData,changeQuestion,isLastQuestion,han
         id ,
     } = questionData || {}
 
-    function saveQuizResponse ( selectedOption , questionId ) {
+    function saveQuizResponse ( selectedOption  ) {
         // console.log({selectedOption , questionId})
         const isAnswerCorrect = selectedOption === correctAns
         const score = isAnswerCorrect ? 2 : 0
-
         localStorage.setItem('finalScore' ,score )
-        
-
     }
 
     return (
@@ -30,7 +27,7 @@ export default function QuizApp ({questionData,changeQuestion,isLastQuestion,han
                             <input 
                                 type='radio' 
                                 name='quizOptions' 
-                                onChange={()=> saveQuizResponse(option,id)}
+                                onChange={()=> saveQuizResponse(option)}
                             />
                             <span>{option}</span>
                         </div>
